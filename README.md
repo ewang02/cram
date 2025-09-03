@@ -39,6 +39,5 @@ CRAM is SaaS application designed to assist students and professionals consume w
 
 (Instructions for setting up the project locally will be added here)
 
-## 📄 Documentation
-
-(Links to detailed documentation will be added here)
+In the backend folder, create a Python virtual environment and pip install the requirements.txt file.
+In the frontend folder, run npm install. Then start the frontend using npm start and start the backend with python app.py
