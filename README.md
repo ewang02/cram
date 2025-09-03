@@ -13,7 +13,7 @@ CRAM is SaaS application designed to assist students and professionals consume w
 - **Frontend**: React.js
 - **Backend**: Python (Flask/FastAPI)
 - **Database**: PostgreSQL
-- **Security & Authentication**: Firebase
+- **Security & Authentication**: Firebase 
 
 ## 👥 Our Team
 
