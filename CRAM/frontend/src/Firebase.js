@@ -1,9 +1,11 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, signOut as firebaseSignOut, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 
+require('dotenv').config();
+
 // Your Firebase config
 const firebaseConfig = {
-  apiKey: "AIzaSyBrXHjgcrhb5V5gTEQpE85kdYJXc61JCUk",
+  apiKey: process.env.FIREBASE_API_KEY,,
   authDomain: "cram-a3297.firebaseapp.com",
   projectId: "cram-a3297",
   storageBucket: "cram-a3297.firebasestorage.app",
