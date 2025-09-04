@@ -1,7 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, signOut as firebaseSignOut, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 
-// Your Firebase config
+// Your Firebase config -- TESTING
 const firebaseConfig = {
   apiKey: 'AIzaSyBrXHjgcrhb5V5gTEQpE85kdYJXc61JCUk',
   authDomain: "cram-a3297.firebaseapp.com",
