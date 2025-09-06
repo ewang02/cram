@@ -18,14 +18,6 @@ function SpeedControl({ wordSpeed, setWordSpeed, eyeTracking, setEyeTracking }) 
         onChange={handleSpeedChange}
       />
       <span>{wordSpeed}</span>
-      <label>
-        <input
-          type="checkbox"
-          checked={eyeTracking}
-          onChange={() => setEyeTracking(!eyeTracking)}
-        />
-        Eye-Tracking
-      </label>
     </div>
   );
 }
